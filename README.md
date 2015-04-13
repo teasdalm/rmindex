@@ -22,3 +22,8 @@ barcode_df <- read_index("barcodes.csv")
 plot_barcodes(barcode_df)
 ```
 
+### Data
+
+* Data folder includes...
+  * index.Rdata - 200 plus Meyer and Kircher (2010) indexes
+  * example_barcodes - example index file
