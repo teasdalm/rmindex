@@ -15,7 +15,7 @@ barcode_select <- function(number_of_barcodes = 75, number_to_select = 6){
   }
   ## ----- Function to sample barcode
   sample_barcodes <- function(){
-    barcodes <- sample(numberof_barcodes, number_to_select)
+    barcodes <- sample(number_of_barcodes, number_to_select)
     barcodes_sorted <- sort(barcodes)
     selected_barcodes <- meyer_index[barcodes_sorted,]
     return(selected_barcodes)
