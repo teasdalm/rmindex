@@ -27,3 +27,9 @@ plot_barcodes(barcode_df)
 * Data folder includes...
   * index.Rdata - 200 plus Meyer and Kircher (2010) indexes
   * example_barcodes - example index file
+
+* To load meyer index dataset
+```{r}
+library(rmindex)
+head(meyer_index)
+```
