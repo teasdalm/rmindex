@@ -11,6 +11,7 @@
 
 barcode_select <- function(numberof_barcodes = 75, number_to_select = 6){
 
+  ## ----- Function to sample barcode
   sample_barcodes <- function(){
     barcodes <- sample(numberof_barcodes, number_to_select)
     barcodes_sorted <- sort(barcodes)
@@ -18,6 +19,7 @@ barcode_select <- function(numberof_barcodes = 75, number_to_select = 6){
     return(selected_barcodes)
   }
 
+  ## ----- Function to sample barcode
   no_channel <- function(x){
     if(is.na(x[1]) | is.na(x[2])){
       return(TRUE)
@@ -26,18 +28,18 @@ barcode_select <- function(numberof_barcodes = 75, number_to_select = 6){
     }
   }
 
-  current_selection <- sample_barcodes()
-  result <- apply(current_selection[,4:10], 2, channel_count)
-  count_df <- data.frame(matrix(unlist(result), nrow=7, byrow=T))
-  test_counts <- apply(count_df, 1, no_channel)
-
-  while(any(test_counts)){
+  # Select random indexes check for clashes if not return to user
+  repeat{
     current_selection <- sample_barcodes()
     result <- apply(current_selection[,4:10], 2, channel_count)
     count_df <- data.frame(matrix(unlist(result), nrow=7, byrow=T))
     test_counts <- apply(count_df, 1, no_channel)
+    if(!any(test_counts){
+      current_selection <- current_selection[,-1]
+      message("selected indexes ",
+              paste(current_selection$TCD_name, collapse=" "))
+      return(current_selection)
+      break
+    }
   }
-  current_selection <- current_selection[,-1]
-  message("selected indexes ", paste(current_selection$TCD_name, collapse=" "))
-  return(current_selection)
 }
