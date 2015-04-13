@@ -1,4 +1,4 @@
-# rmindex
+# rmindex (__R__ __M__eyer __index__)
 
 R codex to look at multiplex indexes
 
