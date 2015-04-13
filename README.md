@@ -22,6 +22,12 @@ barcode_df <- read_index("barcodes.csv")
 plot_barcodes(barcode_df)
 ```
 
+* Select random none overlaping indexes
+
+```{r}
+test_barcodes <- barcode_select(number_of_barcodes = 75, number_to_select = 6)
+```
+
 ### Data
 
 * Data folder includes...
