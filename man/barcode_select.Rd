@@ -4,12 +4,12 @@
 \alias{barcode_select}
 \title{Barcode Select}
 \usage{
-barcode_select(numberof_barcodes = 75, number_to_select = 6)
+barcode_select(number_of_barcodes = 75, number_to_select = 6)
 }
 \arguments{
-\item{numberof_barcodes}{max number of barcodes to chose from}
-
 \item{number_to_select}{number of barcodes to select}
+
+\item{numberof_barcodes}{max number of barcodes to chose from}
 }
 \description{
 R function to select random barcodes that don't overlap colour channels
