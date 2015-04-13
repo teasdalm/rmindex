@@ -9,7 +9,7 @@
 #'barcode_select(numberof_barcodes = 75, number_to_select = 6)
 
 
-barcode_select <- function(numberof_barcodes = 75, number_to_select = 6){
+barcode_select <- function(number_of_barcodes = 75, number_to_select = 6){
   if(numberof_barcodes <= 0 | numberof_barcodes > 228){
     stop("Barcode number incorrect")
   }
