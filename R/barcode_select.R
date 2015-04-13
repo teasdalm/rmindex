@@ -23,7 +23,7 @@ barcode_select <- function(number_of_barcodes = 75, number_to_select = 6){
 
   ## ----- Function to sample barcode
   no_channel <- function(x){
-    if(is.na(x[1]) | is.na(x[2])){
+    if(x[1] == 0 | x[2] == 0){
       return(TRUE)
     } else{
       return(FALSE)

@@ -18,7 +18,7 @@ plot_barcodes <-function(x){
 
   ## --- Test for missing channels
   no_channel <- function(x){
-    if(is.na(x[1]) | is.na(x[2])){
+    if(x[1] == 0 | x[2] ==0){
       return(TRUE)
     } else{
       return(FALSE)
