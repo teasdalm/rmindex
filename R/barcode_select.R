@@ -2,15 +2,15 @@
 #'
 #' R function to select random barcodes that don't overlap colour channels
 #'
-#'@param numberof_barcodes max number of barcodes to chose from
+#'@param number_of_barcodes max number of barcodes to chose from
 #'@param number_to_select number of barcodes to select
 #'@export
 #'@examples
-#'barcode_select(numberof_barcodes = 75, number_to_select = 6)
+#'barcode_select(number_of_barcodes = 75, number_to_select = 6)
 
 
 barcode_select <- function(number_of_barcodes = 75, number_to_select = 6){
-  if(numberof_barcodes <= 0 | numberof_barcodes > 228){
+  if(number_of_barcodes <= 0 | number_of_barcodes > 228){
     stop("Barcode number incorrect")
   }
   ## ----- Function to sample barcode

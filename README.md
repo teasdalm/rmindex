@@ -28,6 +28,12 @@ plot_barcodes(barcode_df)
 test_barcodes <- barcode_select(number_of_barcodes = 75, number_to_select = 6)
 ```
 
+* MiSeq sample sheet test 
+
+```{r}
+sample_sheet_test("sample_sheet.csv")
+```
+
 ### Data
 
 * Data folder includes...
