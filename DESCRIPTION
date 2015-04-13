@@ -1,10 +1,10 @@
 Package: rmindex
 Type: Package
-Title: What the Package Does (Title Case)
+Title: R codex to look a multiplex indexes
 Version: 0.1
 Date: 2015-04-10
-Author: Who wrote it
-Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
-License: What license is it under?
+Author: Matthew Teasdale
+Maintainer: Matthew <matt@teasdale.xyz>
+Description: ??
+License: GPL-V3
 LazyData: TRUE
