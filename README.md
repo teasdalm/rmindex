@@ -21,6 +21,9 @@ barcode_df <- read_index("barcodes.csv")
 
 # Plot barcodes
 plot_barcodes(barcode_df)
+
+# All in one
+plot_barcodes(read_index("barcodes.csv"))
 ```
 
 * Select random none overlaping indexes
@@ -30,7 +33,7 @@ plot_barcodes(barcode_df)
 test_barcodes <- barcode_select(number_of_barcodes = 75, number_to_select = 6)
 
 # example output 
-#selected indexes B023 B029 B033 B039 B040 B046
+# Selected indexes B023 B029 B033 B039 B040 B046
 #   TCD_name     Seq base1 base2 base3 base4 base5 base6 base7
 #23     B023 GATCTCG     G     A     T     C     T     C     G
 #29     B029 CCGATTG     C     C     G     A     T     T     G
@@ -39,6 +42,8 @@ test_barcodes <- barcode_select(number_of_barcodes = 75, number_to_select = 6)
 #40     B040 TTCGCAA     T     T     C     G     C     A     A
 #46     B046 GTACCGG     G     T     A     C     C     G     G
 
+# Select and plot
+plot_barcodes(barcode_select(number_to_select = 6))
 ```
 
 * MiSeq sample sheet test 
