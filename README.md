@@ -1,6 +1,6 @@
-# rmindex (**R** **M**eyer **index**)
+# rmindex 
 
-R code to look at multiplex indexes 
+rmindex (**R** **M**eyer **index**) is an R package that assesses and selects multiplex indexes from the Meyer and Kircher _(2010)_ library protocol for use with illumina sequencing.
 
 ### Usage
 
