@@ -1,6 +1,6 @@
 # rmindex 
 
-R code to look at multiplex indexes (__R__ __M__eyer __index__)
+R code to look at multiplex indexes (*R* *M*eyer *index*)
 
 ### Usage
 
