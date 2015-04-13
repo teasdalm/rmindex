@@ -1,6 +1,6 @@
 #' Barcode Select
 #'
-#' R function to select barcodes that don't overlap colour channels
+#' R function to select random barcodes that don't overlap colour channels
 #'
 #'@param numberof_barcodes max number of barcodes to chose from
 #'@param number_to_select number of barcodes to select
