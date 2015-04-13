@@ -10,7 +10,7 @@
 
 
 barcode_select <- function(numberof_barcodes = 75, number_to_select = 6){
-  if(numberof_barcodes < 0 | numberof_barcodes > 228){
+  if(numberof_barcodes <= 0 | numberof_barcodes > 228){
     stop("Barcode number incorrect")
   }
   ## ----- Function to sample barcode
