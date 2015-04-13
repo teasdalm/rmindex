@@ -1,3 +1,14 @@
+#' Plot Barcodes
+#'
+#' R function to test a MiSeq sample sheet
+#'
+#'@param x Sample sheet df
+#'@keywords Sample Sheet
+#'@export
+#'@examples
+#'plot_barcodes(x)
+
+
 plot_barcodes <-function(x){
 
   ## --- Make DF
