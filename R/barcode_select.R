@@ -34,7 +34,7 @@ barcode_select <- function(numberof_barcodes = 75, number_to_select = 6){
     result <- apply(current_selection[,4:10], 2, channel_count)
     count_df <- data.frame(matrix(unlist(result), nrow=7, byrow=T))
     test_counts <- apply(count_df, 1, no_channel)
-    if(!any(test_counts){
+    if(!any(test_counts)){
       current_selection <- current_selection[,-1]
       message("selected indexes ",
               paste(current_selection$TCD_name, collapse=" "))
