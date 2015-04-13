@@ -1,6 +1,6 @@
-# rmindex (__R__ __M__eyer __index__)
+# rmindex 
 
-R codex to look at multiplex indexes
+R code to look at multiplex indexes (__R__ __M__eyer __index__)
 
 ### Usage
 
