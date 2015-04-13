@@ -27,5 +27,10 @@ read_index <- function(index_file){
                   "base6",
                   "base7")
 
+
+  for(i in seq(3,9)){
+    dat[,i] <- factor(dat[,i], levels = c("A", "C", "G", "T"))
+  }
+
   return(dat)
 }
