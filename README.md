@@ -1,6 +1,6 @@
 # rmindex
 
-R codex to look a multiplex indexes
+R codex to look at multiplex indexes
 
 ### Usage
 
@@ -16,6 +16,7 @@ library(rmindex)
 
 ```{r}
 # Read barcodes
+# Example file in /data
 barcode_df <- read_index("barcodes.csv")
 
 # Plot barcodes
@@ -25,6 +26,7 @@ plot_barcodes(barcode_df)
 * Select random none overlaping indexes
 
 ```{r}
+# Select random barcodes defaults are shown
 test_barcodes <- barcode_select(number_of_barcodes = 75, number_to_select = 6)
 ```
 
