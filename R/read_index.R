@@ -31,6 +31,6 @@ read_index <- function(index_file){
   for(i in seq(3,9)){
     dat[,i] <- factor(dat[,i], levels = c("A", "C", "G", "T"))
   }
-  message("Read ", nrow(dat), "barcodes")
+  message("Read ", nrow(dat), " barcodes")
   return(dat)
 }

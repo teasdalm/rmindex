@@ -28,7 +28,7 @@ plot_barcodes <-function(x){
 
   ## ------ Plot graph
 
-  #par(xpd=TRUE,mar=c(5,4,4,5))
+  par(xpd=TRUE,mar=c(5,4,4,5))
   barplot(t(count_df),col=c("red","green"),xlab="Barcode position",ylab="Red and Green Counts")
   legend(par("usr")[2],par("usr")[4],c("Red","Green"),pch=15,col=c("red","green"))
   message("Barcode counts below.....")
