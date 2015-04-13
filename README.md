@@ -31,7 +31,7 @@ test_barcodes <- barcode_select(number_of_barcodes = 75, number_to_select = 6)
 ### Data
 
 * Data folder includes...
-  * index.Rdata - 200 plus Meyer and Kircher (2010) indexes
+  * index.rda - 200 plus Meyer and Kircher (2010) indexes
   * example_barcodes - example index file
 
 * To load meyer index dataset
