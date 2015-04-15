@@ -8,6 +8,7 @@
 
 ```{r}
 install.packages("devtools")
+install.packages("tidyr")
 devtools::install_github("teasdalm/rmindex")
 library(rmindex)
 ```
