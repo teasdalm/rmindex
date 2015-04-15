@@ -9,6 +9,9 @@
 
 channel_count <- function(x){
 
+  red_channel <- 0
+  green_channel < -0
+
   for(each in x){
     if(each == "A" | each == "C"){
       red_channel <- red_channel + 1
