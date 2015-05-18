@@ -31,7 +31,7 @@ plot_barcodes(read_index("barcodes.csv"))
 
 ```{r}
 # Select random barcodes defaults are shown
-test_barcodes <- barcode_select(number_to_select = 6)
+barcode_select(number_to_select = 6)
 
 # example output 
 # Selected indexes B023 B029 B033 B039 B040 B046
@@ -46,6 +46,24 @@ test_barcodes <- barcode_select(number_to_select = 6)
 # Select and plot
 plot_barcodes(barcode_select(number_to_select = 6))
 ```
+
+* with more complex indexes
+```{R}
+# Select random barcodes 
+barcode_select(indexes = c(1,4,63-100)number_to_select = 6)
+
+# example output 
+# Selected indexes B023 B029 B033 B039 B040 B046
+selected indexes B001 B066 B082 B091 B092 B095
+   #TCD_name     Seq base1 base2 base3 base4 base5 base6 base7
+#1      B001 TCGCAGG     T     C     G     C     A     G     G
+#82     B082 CAGCATC     C     A     G     C     A     T     C
+#66     B066 AGAGCGC     A     G     A     G     C     G     C
+#91     B091 CGTATAT     C     G     T     A     T     A     T
+#92     B092 GCTAATC     G     C     T     A     A     T     C
+#95     B095 CGAGATC     C     G     A     G     A     T     C
+```
+
 
 * MiSeq sample sheet test 
 
