@@ -31,7 +31,7 @@ plot_barcodes(read_index("barcodes.csv"))
 
 ```{r}
 # Select random barcodes defaults are shown
-test_barcodes <- barcode_select(number_of_barcodes = 75, number_to_select = 6)
+test_barcodes <- barcode_select(number_to_select = 6)
 
 # example output 
 # Selected indexes B023 B029 B033 B039 B040 B046
