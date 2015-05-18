@@ -50,7 +50,7 @@ plot_barcodes(barcode_select(number_to_select = 6))
 * with more complex indexes
 ```{R}
 # Select random barcodes 
-barcode_select(indexes = c(1,4,63-100)number_to_select = 6)
+barcode_select(indexes = c(1,4,63:100), number_to_select = 6)
 
 # example output 
 # Selected indexes B023 B029 B033 B039 B040 B046
