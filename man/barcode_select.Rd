@@ -7,7 +7,7 @@
 barcode_select(indexes = c(1:75), number_to_select = 6)
 }
 \arguments{
-\item{indexes}{indexes to select from defaults [1-75]}
+\item{indexes}{indexes to select from, defaults [1-75]}
 
 \item{number_to_select}{number of barcodes to select}
 }

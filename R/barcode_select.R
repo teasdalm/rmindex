@@ -2,7 +2,7 @@
 #'
 #' R function to select random barcodes that don't overlap colour channels
 #'
-#'@param indexes indexes to select from defaults [1-75]
+#'@param indexes indexes to select from, defaults [1-75]
 #'@param number_to_select number of barcodes to select
 #'@export
 #'@examples
