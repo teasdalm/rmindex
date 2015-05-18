@@ -7,7 +7,7 @@
 barcode_select(indexes = c(1:75), number_to_select = 6)
 }
 \arguments{
-\item{indexes}{indexes to select from defaults 1:75}
+\item{indexes}{indexes to select from defaults [1-75]}
 
 \item{number_to_select}{number of barcodes to select}
 }
@@ -15,6 +15,6 @@ barcode_select(indexes = c(1:75), number_to_select = 6)
 R function to select random barcodes that don't overlap colour channels
 }
 \examples{
-barcode_select(number_of_barcodes = 75, number_to_select = 6)
+barcode_select(indexes = c(1:75), number_to_select = 6)
 }
 
