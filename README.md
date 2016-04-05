@@ -74,7 +74,7 @@ sample_sheet_test("sample_sheet.csv")
 
 * Data folder includes...
   * index.rda - 200 plus Meyer and Kircher (2010) indexes
-  * example_barcodes - example index file
+  * example_barcodes.csv - example index csv file
 
 * To load meyer index dataset
 ```{r}
