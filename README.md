@@ -53,14 +53,14 @@ plot_barcodes(barcode_select(number_to_select = 6))
 barcode_select(indexes = c(1,4,63:100), number_to_select = 6)
 
 # example output 
-# Selected indexes B023 B029 B033 B039 B040 B046
-   #TCD_name     Seq base1 base2 base3 base4 base5 base6 base7
-#1      B001 TCGCAGG     T     C     G     C     A     G     G
-#82     B082 CAGCATC     C     A     G     C     A     T     C
-#66     B066 AGAGCGC     A     G     A     G     C     G     C
-#91     B091 CGTATAT     C     G     T     A     T     A     T
-#92     B092 GCTAATC     G     C     T     A     A     T     C
-#95     B095 CGAGATC     C     G     A     G     A     T     C
+#selected indexes B072 B085 B086 B087 B088 B093
+#   TCD_name     Seq base1 base2 base3 base4 base5 base6 base7
+#72     B072 GGCATAG     G     G     C     A     T     A     G
+#85     B085 CCGGATA     C     C     G     G     A     T     A
+#86     B086 GCCGCCT     G     C     C     G     C     C     T
+#87     B087 AACGACC     A     A     C     G     A     C     C
+#88     B088 CCAGCGG     C     C     A     G     C     G     G
+#93     B093 GACTTCT     G     A     C     T     T     C     T
 ```
 
 
